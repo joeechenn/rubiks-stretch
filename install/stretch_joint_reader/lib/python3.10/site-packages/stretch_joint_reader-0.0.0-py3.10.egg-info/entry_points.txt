@@ -1,0 +1,3 @@
+[console_scripts]
+run = stretch_joint_reader.run:main
+

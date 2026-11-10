@@ -1,0 +1,24 @@
+[0.662s] Invoking command in '/home/nileshthakur/ament_ws/src/stretch_joint_reader': PYTHONPATH=/home/nileshthakur/ament_ws/build/stretch_joint_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nileshthakur/ament_ws/install/stretch_joint_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stretch_joint_reader build --build-base /home/nileshthakur/ament_ws/build/stretch_joint_reader/build install --record /home/nileshthakur/ament_ws/build/stretch_joint_reader/install.log --single-version-externally-managed install_data
+[0.881s] running egg_info
+[0.882s] writing ../../build/stretch_joint_reader/stretch_joint_reader.egg-info/PKG-INFO
+[0.882s] writing dependency_links to ../../build/stretch_joint_reader/stretch_joint_reader.egg-info/dependency_links.txt
+[0.882s] writing entry points to ../../build/stretch_joint_reader/stretch_joint_reader.egg-info/entry_points.txt
+[0.882s] writing requirements to ../../build/stretch_joint_reader/stretch_joint_reader.egg-info/requires.txt
+[0.882s] writing top-level names to ../../build/stretch_joint_reader/stretch_joint_reader.egg-info/top_level.txt
+[0.883s] reading manifest file '../../build/stretch_joint_reader/stretch_joint_reader.egg-info/SOURCES.txt'
+[0.884s] writing manifest file '../../build/stretch_joint_reader/stretch_joint_reader.egg-info/SOURCES.txt'
+[0.884s] running build
+[0.884s] running build_py
+[0.884s] copying stretch_joint_reader/run.py -> /home/nileshthakur/ament_ws/build/stretch_joint_reader/build/lib/stretch_joint_reader
+[0.884s] running install
+[0.884s] running install_lib
+[0.885s] copying /home/nileshthakur/ament_ws/build/stretch_joint_reader/build/lib/stretch_joint_reader/run.py -> /home/nileshthakur/ament_ws/install/stretch_joint_reader/lib/python3.10/site-packages/stretch_joint_reader
+[0.885s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_joint_reader/lib/python3.10/site-packages/stretch_joint_reader/run.py to run.cpython-310.pyc
+[0.886s] running install_data
+[0.886s] running install_egg_info
+[0.887s] removing '/home/nileshthakur/ament_ws/install/stretch_joint_reader/lib/python3.10/site-packages/stretch_joint_reader-0.0.0-py3.10.egg-info' (and everything under it)
+[0.887s] Copying ../../build/stretch_joint_reader/stretch_joint_reader.egg-info to /home/nileshthakur/ament_ws/install/stretch_joint_reader/lib/python3.10/site-packages/stretch_joint_reader-0.0.0-py3.10.egg-info
+[0.888s] running install_scripts
+[0.903s] Installing run script to /home/nileshthakur/ament_ws/install/stretch_joint_reader/lib/stretch_joint_reader
+[0.904s] writing list of installed files to '/home/nileshthakur/ament_ws/build/stretch_joint_reader/install.log'
+[0.924s] Invoked command in '/home/nileshthakur/ament_ws/src/stretch_joint_reader' returned '0': PYTHONPATH=/home/nileshthakur/ament_ws/build/stretch_joint_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nileshthakur/ament_ws/install/stretch_joint_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stretch_joint_reader build --build-base /home/nileshthakur/ament_ws/build/stretch_joint_reader/build install --record /home/nileshthakur/ament_ws/build/stretch_joint_reader/install.log --single-version-externally-managed install_data

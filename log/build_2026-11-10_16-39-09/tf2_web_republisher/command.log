@@ -1,0 +1,6 @@
+Invoking command in '/home/nileshthakur/ament_ws/build/tf2_web_republisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nileshthakur/ament_ws/src/tf2_web_republisher_py/tf2_web_republisher -DCMAKE_INSTALL_PREFIX=/home/nileshthakur/ament_ws/install/tf2_web_republisher
+Invoked command in '/home/nileshthakur/ament_ws/build/tf2_web_republisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nileshthakur/ament_ws/src/tf2_web_republisher_py/tf2_web_republisher -DCMAKE_INSTALL_PREFIX=/home/nileshthakur/ament_ws/install/tf2_web_republisher
+Invoking command in '/home/nileshthakur/ament_ws/build/tf2_web_republisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nileshthakur/ament_ws/build/tf2_web_republisher -- -j16 -l16
+Invoked command in '/home/nileshthakur/ament_ws/build/tf2_web_republisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nileshthakur/ament_ws/build/tf2_web_republisher -- -j16 -l16
+Invoking command in '/home/nileshthakur/ament_ws/build/tf2_web_republisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nileshthakur/ament_ws/build/tf2_web_republisher
+Invoked command in '/home/nileshthakur/ament_ws/build/tf2_web_republisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nileshthakur/ament_ws/build/tf2_web_republisher

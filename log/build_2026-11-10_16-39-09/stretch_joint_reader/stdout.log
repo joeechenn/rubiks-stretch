@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/stretch_joint_reader/stretch_joint_reader.egg-info
+writing ../../build/stretch_joint_reader/stretch_joint_reader.egg-info/PKG-INFO
+writing dependency_links to ../../build/stretch_joint_reader/stretch_joint_reader.egg-info/dependency_links.txt
+writing entry points to ../../build/stretch_joint_reader/stretch_joint_reader.egg-info/entry_points.txt
+writing requirements to ../../build/stretch_joint_reader/stretch_joint_reader.egg-info/requires.txt
+writing top-level names to ../../build/stretch_joint_reader/stretch_joint_reader.egg-info/top_level.txt
+writing manifest file '../../build/stretch_joint_reader/stretch_joint_reader.egg-info/SOURCES.txt'
+reading manifest file '../../build/stretch_joint_reader/stretch_joint_reader.egg-info/SOURCES.txt'
+writing manifest file '../../build/stretch_joint_reader/stretch_joint_reader.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nileshthakur/ament_ws/build/stretch_joint_reader/build
+creating /home/nileshthakur/ament_ws/build/stretch_joint_reader/build/lib
+creating /home/nileshthakur/ament_ws/build/stretch_joint_reader/build/lib/stretch_joint_reader
+copying stretch_joint_reader/__init__.py -> /home/nileshthakur/ament_ws/build/stretch_joint_reader/build/lib/stretch_joint_reader
+copying stretch_joint_reader/run.py -> /home/nileshthakur/ament_ws/build/stretch_joint_reader/build/lib/stretch_joint_reader
+running install
+running install_lib
+creating /home/nileshthakur/ament_ws/install/stretch_joint_reader/lib/python3.10/site-packages/stretch_joint_reader
+copying /home/nileshthakur/ament_ws/build/stretch_joint_reader/build/lib/stretch_joint_reader/__init__.py -> /home/nileshthakur/ament_ws/install/stretch_joint_reader/lib/python3.10/site-packages/stretch_joint_reader
+copying /home/nileshthakur/ament_ws/build/stretch_joint_reader/build/lib/stretch_joint_reader/run.py -> /home/nileshthakur/ament_ws/install/stretch_joint_reader/lib/python3.10/site-packages/stretch_joint_reader
+byte-compiling /home/nileshthakur/ament_ws/install/stretch_joint_reader/lib/python3.10/site-packages/stretch_joint_reader/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/nileshthakur/ament_ws/install/stretch_joint_reader/lib/python3.10/site-packages/stretch_joint_reader/run.py to run.cpython-310.pyc
+running install_data
+creating /home/nileshthakur/ament_ws/install/stretch_joint_reader/share/ament_index
+creating /home/nileshthakur/ament_ws/install/stretch_joint_reader/share/ament_index/resource_index
+creating /home/nileshthakur/ament_ws/install/stretch_joint_reader/share/ament_index/resource_index/packages
+copying resource/stretch_joint_reader -> /home/nileshthakur/ament_ws/install/stretch_joint_reader/share/ament_index/resource_index/packages
+copying package.xml -> /home/nileshthakur/ament_ws/install/stretch_joint_reader/share/stretch_joint_reader
+running install_egg_info
+Copying ../../build/stretch_joint_reader/stretch_joint_reader.egg-info to /home/nileshthakur/ament_ws/install/stretch_joint_reader/lib/python3.10/site-packages/stretch_joint_reader-0.0.0-py3.10.egg-info
+running install_scripts
+Installing run script to /home/nileshthakur/ament_ws/install/stretch_joint_reader/lib/stretch_joint_reader
+writing list of installed files to '/home/nileshthakur/ament_ws/build/stretch_joint_reader/install.log'

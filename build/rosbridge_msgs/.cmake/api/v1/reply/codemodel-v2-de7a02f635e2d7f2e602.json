@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4e3fcff0f7ce244c4db6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "rosbridge_msgs__py",
+					"jsonFile" : "directory-rosbridge_msgs__py-e1937033e83794018ce5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/nileshthakur/ament_ws/build/rosbridge_msgs/rosbridge_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "rosbridge_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rosbridge_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rosbridge_msgs_egg-467fc26f4e6eb13b0176.json",
+					"name" : "ament_cmake_python_build_rosbridge_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rosbridge_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rosbridge_msgs-0f481a6fb2b5b0cf13fc.json",
+					"name" : "ament_cmake_python_copy_rosbridge_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_msgs-1ab21055758467cb8c5f.json",
+					"name" : "rosbridge_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_msgs__cpp-b01c5b0566736965f120.json",
+					"name" : "rosbridge_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rosbridge_msgs__py::@ebf0abadab89c9f88969",
+					"jsonFile" : "target-rosbridge_msgs__py-95680fe45a9eb4fa9dbe.json",
+					"name" : "rosbridge_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_msgs__rosidl_generator_c-dab00347d1ff9ab3242c.json",
+					"name" : "rosbridge_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_msgs__rosidl_generator_py-46aabb9b2ad5f917d3a2.json",
+					"name" : "rosbridge_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_msgs__rosidl_typesupport_c-879b03e5b5338901890e.json",
+					"name" : "rosbridge_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_msgs__rosidl_typesupport_c__pyext-fd6fa0458e080d6e3d3b.json",
+					"name" : "rosbridge_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_msgs__rosidl_typesupport_cpp-cea7bc02c5577026ba93.json",
+					"name" : "rosbridge_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_msgs__rosidl_typesupport_fastrtps_c-265a868fe3ce82ac85e8.json",
+					"name" : "rosbridge_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_msgs__rosidl_typesupport_fastrtps_c__pyext-b67a76f6671b5d20128b.json",
+					"name" : "rosbridge_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_msgs__rosidl_typesupport_fastrtps_cpp-3604e0ac91576303e654.json",
+					"name" : "rosbridge_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_msgs__rosidl_typesupport_introspection_c-3f9cde65e66961a02019.json",
+					"name" : "rosbridge_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_msgs__rosidl_typesupport_introspection_c__pyext-caa6715dba4e2ce84381.json",
+					"name" : "rosbridge_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_msgs__rosidl_typesupport_introspection_cpp-494ead4dc365f885ed5c.json",
+					"name" : "rosbridge_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosbridge_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosbridge_msgs_uninstall-ee45136220dadd94397d.json",
+					"name" : "rosbridge_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-395ae90b65ed46f383f4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nileshthakur/ament_ws/build/rosbridge_msgs",
+		"source" : "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosbridge_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

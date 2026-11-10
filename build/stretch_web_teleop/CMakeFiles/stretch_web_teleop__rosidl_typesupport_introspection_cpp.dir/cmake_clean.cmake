@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/stretch_web_teleop__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stretch_web_teleop/action/detail/move_to_pregrasp__type_support.cpp.o"
+  "CMakeFiles/stretch_web_teleop__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stretch_web_teleop/action/detail/move_to_pregrasp__type_support.cpp.o.d"
+  "CMakeFiles/stretch_web_teleop__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stretch_web_teleop/msg/detail/text_to_speech__type_support.cpp.o"
+  "CMakeFiles/stretch_web_teleop__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stretch_web_teleop/msg/detail/text_to_speech__type_support.cpp.o.d"
+  "libstretch_web_teleop__rosidl_typesupport_introspection_cpp.pdb"
+  "libstretch_web_teleop__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/stretch_web_teleop/action/detail/move_to_pregrasp__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/stretch_web_teleop/action/detail/move_to_pregrasp__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/stretch_web_teleop/msg/detail/text_to_speech__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/stretch_web_teleop/msg/detail/text_to_speech__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/stretch_web_teleop__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

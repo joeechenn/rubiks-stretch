@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f53f2adbbd86165baf17.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "stretch_web_teleop__py",
+					"jsonFile" : "directory-stretch_web_teleop__py-9acf8ad2d27c8cec1492.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/nileshthakur/ament_ws/build/stretch_web_teleop/stretch_web_teleop__py",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "stretch_web_teleop",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_stretch_web_teleop_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_stretch_web_teleop_egg-efa7c3f149d3e70bead5.json",
+					"name" : "ament_cmake_python_build_stretch_web_teleop_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_stretch_web_teleop_helpers_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_stretch_web_teleop_helpers_egg-8028ee5f7b93aa07ff86.json",
+					"name" : "ament_cmake_python_build_stretch_web_teleop_helpers_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_stretch_web_teleop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_stretch_web_teleop-0dcb38e9e3828e762141.json",
+					"name" : "ament_cmake_python_copy_stretch_web_teleop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_stretch_web_teleop_helpers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_stretch_web_teleop_helpers-b60315e25970a2f2d8f5.json",
+					"name" : "ament_cmake_python_copy_stretch_web_teleop_helpers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stretch_web_teleop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stretch_web_teleop-e2312d89e364e676c1f5.json",
+					"name" : "stretch_web_teleop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stretch_web_teleop__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stretch_web_teleop__cpp-b863ae507962ac916e4b.json",
+					"name" : "stretch_web_teleop__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "stretch_web_teleop__py::@f9438f936b2b51846e7c",
+					"jsonFile" : "target-stretch_web_teleop__py-7fb5aa1ed4de0eb2611a.json",
+					"name" : "stretch_web_teleop__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stretch_web_teleop__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stretch_web_teleop__rosidl_generator_c-5a8f9e702554919633ea.json",
+					"name" : "stretch_web_teleop__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stretch_web_teleop__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stretch_web_teleop__rosidl_generator_py-14b1f533dd1782d0bb80.json",
+					"name" : "stretch_web_teleop__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stretch_web_teleop__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stretch_web_teleop__rosidl_typesupport_c-3010fd6bc4df2a489fa0.json",
+					"name" : "stretch_web_teleop__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stretch_web_teleop__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stretch_web_teleop__rosidl_typesupport_c__pyext-7f4a4e701fa3c863ca64.json",
+					"name" : "stretch_web_teleop__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stretch_web_teleop__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stretch_web_teleop__rosidl_typesupport_cpp-8256d0e371239e0258ab.json",
+					"name" : "stretch_web_teleop__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stretch_web_teleop__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stretch_web_teleop__rosidl_typesupport_fastrtps_c-1bc71d544b46517b0d67.json",
+					"name" : "stretch_web_teleop__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stretch_web_teleop__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stretch_web_teleop__rosidl_typesupport_fastrtps_c__pyext-851548e78421aaa20bba.json",
+					"name" : "stretch_web_teleop__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stretch_web_teleop__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stretch_web_teleop__rosidl_typesupport_fastrtps_cpp-9ab97263e26f66c90a80.json",
+					"name" : "stretch_web_teleop__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stretch_web_teleop__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stretch_web_teleop__rosidl_typesupport_introspection_c-98526b8a06cdbb51bcd6.json",
+					"name" : "stretch_web_teleop__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stretch_web_teleop__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stretch_web_teleop__rosidl_typesupport_introspection_c__pyext-a87cb6c78d5c61562ed0.json",
+					"name" : "stretch_web_teleop__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stretch_web_teleop__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stretch_web_teleop__rosidl_typesupport_introspection_cpp-3c5b784e334afd7a305a.json",
+					"name" : "stretch_web_teleop__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stretch_web_teleop_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stretch_web_teleop_uninstall-846d98940e8dbd467bda.json",
+					"name" : "stretch_web_teleop_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-643bcfa3b0691a36e1c2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nileshthakur/ament_ws/build/stretch_web_teleop",
+		"source" : "/home/nileshthakur/ament_ws/src/stretch_web_teleop"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

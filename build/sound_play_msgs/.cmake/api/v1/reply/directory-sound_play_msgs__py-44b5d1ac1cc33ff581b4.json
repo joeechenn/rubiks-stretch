@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "sound_play_msgs__py",
+		"source" : "/home/nileshthakur/ament_ws/build/sound_play_msgs/sound_play_msgs__py"
+	}
+}

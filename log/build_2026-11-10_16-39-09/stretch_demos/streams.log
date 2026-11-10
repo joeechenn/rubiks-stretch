@@ -1,0 +1,61 @@
+[4.508s] Invoking command in '/home/nileshthakur/ament_ws/src/stretch_ros2/stretch_demos': PYTHONPATH=/home/nileshthakur/ament_ws/build/stretch_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nileshthakur/ament_ws/install/stretch_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/stretch_demos build --build-base /home/nileshthakur/ament_ws/build/stretch_demos/build install --record /home/nileshthakur/ament_ws/build/stretch_demos/install.log --single-version-externally-managed install_data
+[7.551s] running egg_info
+[7.551s] creating ../../../build/stretch_demos/stretch_demos.egg-info
+[7.551s] writing ../../../build/stretch_demos/stretch_demos.egg-info/PKG-INFO
+[7.551s] writing dependency_links to ../../../build/stretch_demos/stretch_demos.egg-info/dependency_links.txt
+[7.551s] writing entry points to ../../../build/stretch_demos/stretch_demos.egg-info/entry_points.txt
+[7.551s] writing requirements to ../../../build/stretch_demos/stretch_demos.egg-info/requires.txt
+[7.551s] writing top-level names to ../../../build/stretch_demos/stretch_demos.egg-info/top_level.txt
+[7.552s] writing manifest file '../../../build/stretch_demos/stretch_demos.egg-info/SOURCES.txt'
+[7.552s] reading manifest file '../../../build/stretch_demos/stretch_demos.egg-info/SOURCES.txt'
+[7.552s] adding license file 'LICENSE.md'
+[7.552s] writing manifest file '../../../build/stretch_demos/stretch_demos.egg-info/SOURCES.txt'
+[7.552s] running build
+[7.552s] running build_py
+[7.552s] creating /home/nileshthakur/ament_ws/build/stretch_demos/build
+[7.552s] creating /home/nileshthakur/ament_ws/build/stretch_demos/build/lib
+[7.552s] creating /home/nileshthakur/ament_ws/build/stretch_demos/build/lib/stretch_demos
+[7.552s] copying stretch_demos/__init__.py -> /home/nileshthakur/ament_ws/build/stretch_demos/build/lib/stretch_demos
+[7.552s] copying stretch_demos/clean_surface.py -> /home/nileshthakur/ament_ws/build/stretch_demos/build/lib/stretch_demos
+[7.552s] copying stretch_demos/handover_object.py -> /home/nileshthakur/ament_ws/build/stretch_demos/build/lib/stretch_demos
+[7.552s] copying stretch_demos/hello_world.py -> /home/nileshthakur/ament_ws/build/stretch_demos/build/lib/stretch_demos
+[7.553s] copying stretch_demos/grasp_object.py -> /home/nileshthakur/ament_ws/build/stretch_demos/build/lib/stretch_demos
+[7.553s] copying stretch_demos/open_drawer.py -> /home/nileshthakur/ament_ws/build/stretch_demos/build/lib/stretch_demos
+[7.553s] running install
+[7.553s] running install_lib
+[7.553s] creating /home/nileshthakur/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos
+[7.553s] copying /home/nileshthakur/ament_ws/build/stretch_demos/build/lib/stretch_demos/__init__.py -> /home/nileshthakur/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos
+[7.553s] copying /home/nileshthakur/ament_ws/build/stretch_demos/build/lib/stretch_demos/clean_surface.py -> /home/nileshthakur/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos
+[7.553s] copying /home/nileshthakur/ament_ws/build/stretch_demos/build/lib/stretch_demos/handover_object.py -> /home/nileshthakur/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos
+[7.553s] copying /home/nileshthakur/ament_ws/build/stretch_demos/build/lib/stretch_demos/hello_world.py -> /home/nileshthakur/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos
+[7.553s] copying /home/nileshthakur/ament_ws/build/stretch_demos/build/lib/stretch_demos/grasp_object.py -> /home/nileshthakur/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos
+[7.553s] copying /home/nileshthakur/ament_ws/build/stretch_demos/build/lib/stretch_demos/open_drawer.py -> /home/nileshthakur/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos
+[7.553s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos/__init__.py to __init__.cpython-310.pyc
+[7.553s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos/clean_surface.py to clean_surface.cpython-310.pyc
+[7.563s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos/handover_object.py to handover_object.cpython-310.pyc
+[7.563s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos/hello_world.py to hello_world.cpython-310.pyc
+[7.563s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos/grasp_object.py to grasp_object.cpython-310.pyc
+[7.563s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos/open_drawer.py to open_drawer.cpython-310.pyc
+[7.563s] running install_data
+[7.563s] creating /home/nileshthakur/ament_ws/install/stretch_demos/share/ament_index
+[7.564s] creating /home/nileshthakur/ament_ws/install/stretch_demos/share/ament_index/resource_index
+[7.564s] creating /home/nileshthakur/ament_ws/install/stretch_demos/share/ament_index/resource_index/packages
+[7.564s] copying resource/stretch_demos -> /home/nileshthakur/ament_ws/install/stretch_demos/share/ament_index/resource_index/packages
+[7.564s] copying package.xml -> /home/nileshthakur/ament_ws/install/stretch_demos/share/stretch_demos
+[7.564s] creating /home/nileshthakur/ament_ws/install/stretch_demos/share/stretch_demos/launch
+[7.564s] copying launch/grasp_object.launch.py -> /home/nileshthakur/ament_ws/install/stretch_demos/share/stretch_demos/launch
+[7.564s] copying launch/handover_object.launch.py -> /home/nileshthakur/ament_ws/install/stretch_demos/share/stretch_demos/launch
+[7.564s] copying launch/clean_surface.launch.py -> /home/nileshthakur/ament_ws/install/stretch_demos/share/stretch_demos/launch
+[7.564s] copying launch/hello_world.launch.py -> /home/nileshthakur/ament_ws/install/stretch_demos/share/stretch_demos/launch
+[7.564s] copying launch/open_drawer.launch.py -> /home/nileshthakur/ament_ws/install/stretch_demos/share/stretch_demos/launch
+[7.564s] creating /home/nileshthakur/ament_ws/install/stretch_demos/share/stretch_demos/rviz
+[7.564s] running install_egg_info
+[7.573s] Copying ../../../build/stretch_demos/stretch_demos.egg-info to /home/nileshthakur/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos-0.0.0-py3.10.egg-info
+[7.573s] running install_scripts
+[7.574s] Installing clean_surface script to /home/nileshthakur/ament_ws/install/stretch_demos/lib/stretch_demos
+[7.574s] Installing grasp_object script to /home/nileshthakur/ament_ws/install/stretch_demos/lib/stretch_demos
+[7.574s] Installing handover_object script to /home/nileshthakur/ament_ws/install/stretch_demos/lib/stretch_demos
+[7.574s] Installing hello_world script to /home/nileshthakur/ament_ws/install/stretch_demos/lib/stretch_demos
+[7.574s] Installing open_drawer script to /home/nileshthakur/ament_ws/install/stretch_demos/lib/stretch_demos
+[7.574s] writing list of installed files to '/home/nileshthakur/ament_ws/build/stretch_demos/install.log'
+[7.574s] Invoked command in '/home/nileshthakur/ament_ws/src/stretch_ros2/stretch_demos' returned '0': PYTHONPATH=/home/nileshthakur/ament_ws/build/stretch_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nileshthakur/ament_ws/install/stretch_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/stretch_demos build --build-base /home/nileshthakur/ament_ws/build/stretch_demos/build install --record /home/nileshthakur/ament_ws/build/stretch_demos/install.log --single-version-externally-managed install_data

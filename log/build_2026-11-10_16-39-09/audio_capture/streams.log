@@ -1,0 +1,88 @@
+[0.076s] Invoking command in '/home/nileshthakur/ament_ws/build/audio_capture': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nileshthakur/ament_ws/src/audio_common/audio_capture -DCMAKE_INSTALL_PREFIX=/home/nileshthakur/ament_ws/install/audio_capture
+[0.341s] -- The C compiler identification is GNU 11.4.0
+[0.578s] -- The CXX compiler identification is GNU 11.4.0
+[0.595s] -- Detecting C compiler ABI info
+[0.925s] -- Detecting C compiler ABI info - done
+[0.974s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.974s] -- Detecting C compile features
+[0.975s] -- Detecting C compile features - done
+[0.998s] -- Detecting CXX compiler ABI info
+[1.479s] -- Detecting CXX compiler ABI info - done
+[1.505s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.506s] -- Detecting CXX compile features
+[1.515s] -- Detecting CXX compile features - done
+[1.516s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.364s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.901s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[3.097s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.115s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.127s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.151s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.180s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.276s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.280s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.644s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.796s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.035s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.079s] -- Looking for pthread.h
+[4.602s] -- Looking for pthread.h - found
+[4.606s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.924s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.929s] -- Found Threads: TRUE  
+[5.316s] -- Found rclcpp_components: 16.0.17 (/opt/ros/humble/share/rclcpp_components/cmake)
+[5.504s] -- Found audio_common_msgs: 0.3.12 (/home/nileshthakur/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake)
+[5.594s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[5.600s] -- Checking for module 'gstreamer-1.0'
+[5.688s] --   Found gstreamer-1.0, version 1.20.3
+[5.998s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[6.455s] -- Configuring done
+[6.511s] -- Generating done
+[6.542s] -- Build files have been written to: /home/nileshthakur/ament_ws/build/audio_capture
+[6.623s] Invoked command in '/home/nileshthakur/ament_ws/build/audio_capture' returned '0': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nileshthakur/ament_ws/src/audio_common/audio_capture -DCMAKE_INSTALL_PREFIX=/home/nileshthakur/ament_ws/install/audio_capture
+[6.633s] Invoking command in '/home/nileshthakur/ament_ws/build/audio_capture': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nileshthakur/ament_ws/build/audio_capture -- -j16 -l16
+[6.919s] [ 25%] [32mBuilding CXX object CMakeFiles/audio_capture.dir/src/audio_capture_node.cpp.o[0m
+[6.950s] [ 50%] [32mBuilding CXX object CMakeFiles/audio_capture_node.dir/rclcpp_components/node_main_audio_capture_node.cpp.o[0m
+[15.149s] [ 75%] [32m[1mLinking CXX executable audio_capture_node[0m
+[15.387s] [ 75%] Built target audio_capture_node
+[17.115s] [01m[K/home/nileshthakur/ament_ws/src/audio_common/audio_capture/src/audio_capture_node.cpp:[m[K In static member function ‘[01m[Kstatic gboolean audio_capture::AudioCaptureNode::onMessage(GstBus*, GstMessage*, gpointer)[m[K’:
+[17.115s] [01m[K/home/nileshthakur/ament_ws/src/audio_common/audio_capture/src/audio_capture_node.cpp:230:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.115s]   230 |       static gboolean onMessage ([01;35m[KGstBus *bus[m[K, GstMessage *message, gpointer userData)
+[17.115s]       |                                  [01;35m[K~~~~~~~~^~~[m[K
+[21.847s] [100%] [32m[1mLinking CXX shared library libaudio_capture.so[0m
+[22.107s] [100%] Built target audio_capture
+[22.120s] Invoked command in '/home/nileshthakur/ament_ws/build/audio_capture' returned '0': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nileshthakur/ament_ws/build/audio_capture -- -j16 -l16
+[22.122s] Invoking command in '/home/nileshthakur/ament_ws/build/audio_capture': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nileshthakur/ament_ws/build/audio_capture
+[22.129s] -- Install configuration: ""
+[22.129s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/lib/audio_capture/audio_capture_node
+[22.129s] -- Set runtime path of "/home/nileshthakur/ament_ws/install/audio_capture/lib/audio_capture/audio_capture_node" to ""
+[22.129s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/bin/audio_capture_node
+[22.129s] -- Set runtime path of "/home/nileshthakur/ament_ws/install/audio_capture/bin/audio_capture_node" to ""
+[22.129s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/lib/libaudio_capture.so
+[22.131s] -- Set runtime path of "/home/nileshthakur/ament_ws/install/audio_capture/lib/libaudio_capture.so" to ""
+[22.131s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/audio_capture/launch
+[22.131s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/audio_capture/launch/capture_to_file.launch.py
+[22.131s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/audio_capture/launch/capture.launch.py
+[22.132s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/audio_capture/launch/capture_to_file.launch.xml
+[22.132s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/audio_capture/launch/capture_wave.launch.py
+[22.132s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/audio_capture/launch/capture.launch.xml
+[22.132s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/audio_capture/launch/capture_wave.launch.xml
+[22.132s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/audio_capture/environment/library_path.sh
+[22.132s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/audio_capture/environment/library_path.dsv
+[22.132s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/ament_index/resource_index/package_run_dependencies/audio_capture
+[22.132s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/ament_index/resource_index/parent_prefix_path/audio_capture
+[22.132s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/audio_capture/environment/ament_prefix_path.sh
+[22.132s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/audio_capture/environment/ament_prefix_path.dsv
+[22.132s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/audio_capture/environment/path.sh
+[22.132s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/audio_capture/environment/path.dsv
+[22.132s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/audio_capture/local_setup.bash
+[22.133s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/audio_capture/local_setup.sh
+[22.133s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/audio_capture/local_setup.zsh
+[22.133s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/audio_capture/local_setup.dsv
+[22.133s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/audio_capture/package.dsv
+[22.133s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/ament_index/resource_index/packages/audio_capture
+[22.133s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/ament_index/resource_index/rclcpp_components/audio_capture
+[22.133s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/audio_capture/cmake/ament_cmake_export_libraries-extras.cmake
+[22.133s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/audio_capture/cmake/audio_captureConfig.cmake
+[22.133s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/audio_capture/cmake/audio_captureConfig-version.cmake
+[22.133s] -- Installing: /home/nileshthakur/ament_ws/install/audio_capture/share/audio_capture/package.xml
+[22.135s] Invoked command in '/home/nileshthakur/ament_ws/build/audio_capture' returned '0': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nileshthakur/ament_ws/build/audio_capture

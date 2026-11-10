@@ -1,0 +1,84 @@
+[0.094s] Invoking command in '/home/nileshthakur/ament_ws/build/audio_play': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nileshthakur/ament_ws/src/audio_common/audio_play -DCMAKE_INSTALL_PREFIX=/home/nileshthakur/ament_ws/install/audio_play
+[0.317s] -- The C compiler identification is GNU 11.4.0
+[0.587s] -- The CXX compiler identification is GNU 11.4.0
+[0.630s] -- Detecting C compiler ABI info
+[0.921s] -- Detecting C compiler ABI info - done
+[0.954s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.954s] -- Detecting C compile features
+[0.954s] -- Detecting C compile features - done
+[0.971s] -- Detecting CXX compiler ABI info
+[1.333s] -- Detecting CXX compiler ABI info - done
+[1.366s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.366s] -- Detecting CXX compile features
+[1.366s] -- Detecting CXX compile features - done
+[1.375s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.927s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.212s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[2.446s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.469s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.516s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.541s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.579s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.700s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.707s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.045s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.208s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.427s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.474s] -- Looking for pthread.h
+[3.821s] -- Looking for pthread.h - found
+[3.822s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.286s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.292s] -- Found Threads: TRUE  
+[4.697s] -- Found rclcpp_components: 16.0.17 (/opt/ros/humble/share/rclcpp_components/cmake)
+[4.906s] -- Found audio_common_msgs: 0.3.12 (/home/nileshthakur/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake)
+[4.996s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[4.997s] -- Checking for module 'gstreamer-1.0'
+[5.104s] --   Found gstreamer-1.0, version 1.20.3
+[5.374s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[5.830s] -- Configuring done
+[5.920s] -- Generating done
+[5.972s] -- Build files have been written to: /home/nileshthakur/ament_ws/build/audio_play
+[6.108s] Invoked command in '/home/nileshthakur/ament_ws/build/audio_play' returned '0': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nileshthakur/ament_ws/src/audio_common/audio_play -DCMAKE_INSTALL_PREFIX=/home/nileshthakur/ament_ws/install/audio_play
+[6.109s] Invoking command in '/home/nileshthakur/ament_ws/build/audio_play': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nileshthakur/ament_ws/build/audio_play -- -j16 -l16
+[6.389s] [ 25%] [32mBuilding CXX object CMakeFiles/audio_play_node.dir/rclcpp_components/node_main_audio_play_node.cpp.o[0m
+[6.401s] [ 50%] [32mBuilding CXX object CMakeFiles/audio_play.dir/src/audio_play_node.cpp.o[0m
+[15.034s] [ 75%] [32m[1mLinking CXX executable audio_play_node[0m
+[15.305s] [ 75%] Built target audio_play_node
+[17.173s] [01m[K/home/nileshthakur/ament_ws/src/audio_common/audio_play/src/audio_play_node.cpp:[m[K In static member function ‘[01m[Kstatic void audio_play::AudioPlayNode::cb_newpad(GstElement*, GstPad*, gpointer)[m[K’:
+[17.173s] [01m[K/home/nileshthakur/ament_ws/src/audio_common/audio_play/src/audio_play_node.cpp:158:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdecodebin[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.173s]   158 |      static void cb_newpad ([01;35m[KGstElement *decodebin[m[K, GstPad *pad,
+[17.174s]       |                             [01;35m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+[24.115s] [100%] [32m[1mLinking CXX shared library libaudio_play.so[0m
+[24.615s] [100%] Built target audio_play
+[24.629s] Invoked command in '/home/nileshthakur/ament_ws/build/audio_play' returned '0': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nileshthakur/ament_ws/build/audio_play -- -j16 -l16
+[24.631s] Invoking command in '/home/nileshthakur/ament_ws/build/audio_play': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nileshthakur/ament_ws/build/audio_play
+[24.637s] -- Install configuration: ""
+[24.637s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/lib/audio_play/audio_play_node
+[24.638s] -- Set runtime path of "/home/nileshthakur/ament_ws/install/audio_play/lib/audio_play/audio_play_node" to ""
+[24.638s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/bin/audio_play_node
+[24.638s] -- Set runtime path of "/home/nileshthakur/ament_ws/install/audio_play/bin/audio_play_node" to ""
+[24.638s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/lib/libaudio_play.so
+[24.642s] -- Set runtime path of "/home/nileshthakur/ament_ws/install/audio_play/lib/libaudio_play.so" to ""
+[24.642s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/share/audio_play/launch
+[24.642s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/share/audio_play/launch/play.launch.xml
+[24.642s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/share/audio_play/launch/play.launch.py
+[24.642s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/share/audio_play/environment/library_path.sh
+[24.642s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/share/audio_play/environment/library_path.dsv
+[24.642s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/share/ament_index/resource_index/package_run_dependencies/audio_play
+[24.642s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/share/ament_index/resource_index/parent_prefix_path/audio_play
+[24.643s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/share/audio_play/environment/ament_prefix_path.sh
+[24.643s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/share/audio_play/environment/ament_prefix_path.dsv
+[24.643s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/share/audio_play/environment/path.sh
+[24.643s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/share/audio_play/environment/path.dsv
+[24.643s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/share/audio_play/local_setup.bash
+[24.643s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/share/audio_play/local_setup.sh
+[24.643s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/share/audio_play/local_setup.zsh
+[24.643s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/share/audio_play/local_setup.dsv
+[24.643s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/share/audio_play/package.dsv
+[24.643s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/share/ament_index/resource_index/packages/audio_play
+[24.643s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/share/ament_index/resource_index/rclcpp_components/audio_play
+[24.644s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/share/audio_play/cmake/ament_cmake_export_libraries-extras.cmake
+[24.644s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/share/audio_play/cmake/audio_playConfig.cmake
+[24.644s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/share/audio_play/cmake/audio_playConfig-version.cmake
+[24.644s] -- Installing: /home/nileshthakur/ament_ws/install/audio_play/share/audio_play/package.xml
+[24.645s] Invoked command in '/home/nileshthakur/ament_ws/build/audio_play' returned '0': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nileshthakur/ament_ws/build/audio_play

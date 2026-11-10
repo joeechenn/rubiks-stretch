@@ -1,0 +1,39 @@
+running egg_info
+creating ../../../build/stretch_simulation/stretch_simulation.egg-info
+writing ../../../build/stretch_simulation/stretch_simulation.egg-info/PKG-INFO
+writing dependency_links to ../../../build/stretch_simulation/stretch_simulation.egg-info/dependency_links.txt
+writing entry points to ../../../build/stretch_simulation/stretch_simulation.egg-info/entry_points.txt
+writing requirements to ../../../build/stretch_simulation/stretch_simulation.egg-info/requires.txt
+writing top-level names to ../../../build/stretch_simulation/stretch_simulation.egg-info/top_level.txt
+writing manifest file '../../../build/stretch_simulation/stretch_simulation.egg-info/SOURCES.txt'
+reading manifest file '../../../build/stretch_simulation/stretch_simulation.egg-info/SOURCES.txt'
+writing manifest file '../../../build/stretch_simulation/stretch_simulation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nileshthakur/ament_ws/build/stretch_simulation/build
+creating /home/nileshthakur/ament_ws/build/stretch_simulation/build/lib
+creating /home/nileshthakur/ament_ws/build/stretch_simulation/build/lib/stretch_mujoco_driver
+copying stretch_mujoco_driver/__init__.py -> /home/nileshthakur/ament_ws/build/stretch_simulation/build/lib/stretch_mujoco_driver
+copying stretch_mujoco_driver/joint_trajectory_server.py -> /home/nileshthakur/ament_ws/build/stretch_simulation/build/lib/stretch_mujoco_driver
+copying stretch_mujoco_driver/stretch_mujoco_driver.py -> /home/nileshthakur/ament_ws/build/stretch_simulation/build/lib/stretch_mujoco_driver
+running install
+running install_lib
+creating /home/nileshthakur/ament_ws/install/stretch_simulation/lib/python3.10/site-packages/stretch_mujoco_driver
+copying /home/nileshthakur/ament_ws/build/stretch_simulation/build/lib/stretch_mujoco_driver/__init__.py -> /home/nileshthakur/ament_ws/install/stretch_simulation/lib/python3.10/site-packages/stretch_mujoco_driver
+copying /home/nileshthakur/ament_ws/build/stretch_simulation/build/lib/stretch_mujoco_driver/joint_trajectory_server.py -> /home/nileshthakur/ament_ws/install/stretch_simulation/lib/python3.10/site-packages/stretch_mujoco_driver
+copying /home/nileshthakur/ament_ws/build/stretch_simulation/build/lib/stretch_mujoco_driver/stretch_mujoco_driver.py -> /home/nileshthakur/ament_ws/install/stretch_simulation/lib/python3.10/site-packages/stretch_mujoco_driver
+byte-compiling /home/nileshthakur/ament_ws/install/stretch_simulation/lib/python3.10/site-packages/stretch_mujoco_driver/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/nileshthakur/ament_ws/install/stretch_simulation/lib/python3.10/site-packages/stretch_mujoco_driver/joint_trajectory_server.py to joint_trajectory_server.cpython-310.pyc
+byte-compiling /home/nileshthakur/ament_ws/install/stretch_simulation/lib/python3.10/site-packages/stretch_mujoco_driver/stretch_mujoco_driver.py to stretch_mujoco_driver.cpython-310.pyc
+running install_data
+copying package.xml -> /home/nileshthakur/ament_ws/install/stretch_simulation/share/stretch_simulation
+creating /home/nileshthakur/ament_ws/install/stretch_simulation/share/stretch_simulation/launch
+copying launch/stretch_simulation_web_interface.launch.py -> /home/nileshthakur/ament_ws/install/stretch_simulation/share/stretch_simulation/launch
+copying launch/stretch_mujoco_driver.launch.py -> /home/nileshthakur/ament_ws/install/stretch_simulation/share/stretch_simulation/launch
+creating /home/nileshthakur/ament_ws/install/stretch_simulation/share/stretch_simulation/rviz
+copying rviz/stretch_sim.rviz -> /home/nileshthakur/ament_ws/install/stretch_simulation/share/stretch_simulation/rviz
+running install_egg_info
+Copying ../../../build/stretch_simulation/stretch_simulation.egg-info to /home/nileshthakur/ament_ws/install/stretch_simulation/lib/python3.10/site-packages/stretch_simulation-0.2.0-py3.10.egg-info
+running install_scripts
+Installing stretch_mujoco_driver script to /home/nileshthakur/ament_ws/install/stretch_simulation/lib/stretch_simulation
+writing list of installed files to '/home/nileshthakur/ament_ws/build/stretch_simulation/install.log'

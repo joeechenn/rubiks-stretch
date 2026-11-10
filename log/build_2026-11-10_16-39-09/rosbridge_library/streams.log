@@ -1,0 +1,142 @@
+[0.010s] Invoking command in '/home/nileshthakur/ament_ws/build/rosbridge_library': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nileshthakur/ament_ws/src/rosbridge_suite/rosbridge_library -DCMAKE_INSTALL_PREFIX=/home/nileshthakur/ament_ws/install/rosbridge_library
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.131s] -- The CXX compiler identification is GNU 11.4.0
+[0.140s] -- Detecting C compiler ABI info
+[0.246s] -- Detecting C compiler ABI info - done
+[0.255s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.255s] -- Detecting C compile features
+[0.256s] -- Detecting C compile features - done
+[0.259s] -- Detecting CXX compiler ABI info
+[0.367s] -- Detecting CXX compiler ABI info - done
+[0.374s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.374s] -- Detecting CXX compile features
+[0.374s] -- Detecting CXX compile features - done
+[0.376s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.595s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.028s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[2.028s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[2.028s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[2.028s]   using pip.
+[2.028s] Call Stack (most recent call first):
+[2.028s]   CMakeLists.txt:15 (ament_add_pytest_test)
+[2.028s] 
+[2.029s] [0m
+[2.996s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[2.996s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[2.996s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[2.996s]   using pip.
+[2.996s] Call Stack (most recent call first):
+[2.997s]   CMakeLists.txt:16 (ament_add_pytest_test)
+[2.997s] 
+[2.997s] [0m
+[2.997s] -- Configuring done
+[3.001s] -- Generating done
+[3.003s] -- Build files have been written to: /home/nileshthakur/ament_ws/build/rosbridge_library
+[3.009s] Invoked command in '/home/nileshthakur/ament_ws/build/rosbridge_library' returned '0': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nileshthakur/ament_ws/src/rosbridge_suite/rosbridge_library -DCMAKE_INSTALL_PREFIX=/home/nileshthakur/ament_ws/install/rosbridge_library
+[3.012s] Invoking command in '/home/nileshthakur/ament_ws/build/rosbridge_library': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nileshthakur/ament_ws/build/rosbridge_library -- -j16 -l16
+[3.084s] Built target ament_cmake_python_copy_rosbridge_library
+[3.358s] running egg_info
+[3.358s] creating rosbridge_library.egg-info
+[3.359s] writing rosbridge_library.egg-info/PKG-INFO
+[3.359s] writing dependency_links to rosbridge_library.egg-info/dependency_links.txt
+[3.359s] writing top-level names to rosbridge_library.egg-info/top_level.txt
+[3.359s] writing manifest file 'rosbridge_library.egg-info/SOURCES.txt'
+[3.361s] reading manifest file 'rosbridge_library.egg-info/SOURCES.txt'
+[3.362s] writing manifest file 'rosbridge_library.egg-info/SOURCES.txt'
+[3.391s] Built target ament_cmake_python_build_rosbridge_library_egg
+[3.403s] Invoked command in '/home/nileshthakur/ament_ws/build/rosbridge_library' returned '0': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nileshthakur/ament_ws/build/rosbridge_library -- -j16 -l16
+[3.405s] Invoking command in '/home/nileshthakur/ament_ws/build/rosbridge_library': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nileshthakur/ament_ws/build/rosbridge_library
+[3.416s] -- Install configuration: ""
+[3.417s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/share/rosbridge_library/environment/pythonpath.sh
+[3.417s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/share/rosbridge_library/environment/pythonpath.dsv
+[3.417s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library-1.3.2-py3.10.egg-info
+[3.417s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library-1.3.2-py3.10.egg-info/top_level.txt
+[3.417s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library-1.3.2-py3.10.egg-info/PKG-INFO
+[3.417s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library-1.3.2-py3.10.egg-info/dependency_links.txt
+[3.417s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library-1.3.2-py3.10.egg-info/SOURCES.txt
+[3.418s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library
+[3.418s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/__init__.py
+[3.418s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal
+[3.418s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/pngcompression.py
+[3.419s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/message_conversion.py
+[3.419s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/outgoing_message.py
+[3.419s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/__init__.py
+[3.419s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/exceptions.py
+[3.419s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/subscription_modifiers.py
+[3.419s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/cbor_conversion.py
+[3.420s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/actions.py
+[3.420s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/ros_loader.py
+[3.420s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/services.py
+[3.420s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/topics.py
+[3.420s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/subscribers.py
+[3.420s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/publishers.py
+[3.420s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/rosbridge_protocol.py
+[3.420s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities
+[3.420s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities/__init__.py
+[3.421s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities/defragmentation.py
+[3.421s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities/action_client.py
+[3.421s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities/unadvertise_service.py
+[3.421s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities/call_service.py
+[3.421s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities/advertise.py
+[3.421s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities/subscribe.py
+[3.421s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities/advertise_service.py
+[3.421s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities/publish.py
+[3.422s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities/service_response.py
+[3.422s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities/fragmentation.py
+[3.422s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capability.py
+[3.422s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/protocol.py
+[3.422s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/util
+[3.422s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/util/__init__.py
+[3.422s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/util/cbor.py
+[3.422s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/util/ros.py
+[3.468s] Listing '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library'...
+[3.469s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/__init__.py'...
+[3.469s] Listing '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities'...
+[3.469s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities/__init__.py'...
+[3.469s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities/action_client.py'...
+[3.469s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities/advertise.py'...
+[3.469s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities/advertise_service.py'...
+[3.469s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities/call_service.py'...
+[3.469s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities/defragmentation.py'...
+[3.469s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities/fragmentation.py'...
+[3.469s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities/publish.py'...
+[3.469s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities/service_response.py'...
+[3.470s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities/subscribe.py'...
+[3.470s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capabilities/unadvertise_service.py'...
+[3.470s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/capability.py'...
+[3.470s] Listing '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal'...
+[3.470s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/__init__.py'...
+[3.470s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/actions.py'...
+[3.470s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/cbor_conversion.py'...
+[3.470s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/exceptions.py'...
+[3.470s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/message_conversion.py'...
+[3.470s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/outgoing_message.py'...
+[3.470s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/pngcompression.py'...
+[3.470s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/publishers.py'...
+[3.470s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/ros_loader.py'...
+[3.471s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/services.py'...
+[3.471s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/subscribers.py'...
+[3.471s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/subscription_modifiers.py'...
+[3.471s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/internal/topics.py'...
+[3.471s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/protocol.py'...
+[3.471s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/rosbridge_protocol.py'...
+[3.471s] Listing '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/util'...
+[3.471s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/util/__init__.py'...
+[3.471s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/util/cbor.py'...
+[3.471s] Compiling '/home/nileshthakur/ament_ws/install/rosbridge_library/local/lib/python3.10/dist-packages/rosbridge_library/util/ros.py'...
+[3.474s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/share/ament_index/resource_index/package_run_dependencies/rosbridge_library
+[3.474s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/share/ament_index/resource_index/parent_prefix_path/rosbridge_library
+[3.474s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/share/rosbridge_library/environment/ament_prefix_path.sh
+[3.474s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/share/rosbridge_library/environment/ament_prefix_path.dsv
+[3.474s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/share/rosbridge_library/environment/path.sh
+[3.475s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/share/rosbridge_library/environment/path.dsv
+[3.475s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/share/rosbridge_library/local_setup.bash
+[3.475s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/share/rosbridge_library/local_setup.sh
+[3.475s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/share/rosbridge_library/local_setup.zsh
+[3.475s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/share/rosbridge_library/local_setup.dsv
+[3.475s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/share/rosbridge_library/package.dsv
+[3.476s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/share/ament_index/resource_index/packages/rosbridge_library
+[3.476s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/share/rosbridge_library/cmake/rosbridge_libraryConfig.cmake
+[3.476s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/share/rosbridge_library/cmake/rosbridge_libraryConfig-version.cmake
+[3.476s] -- Installing: /home/nileshthakur/ament_ws/install/rosbridge_library/share/rosbridge_library/package.xml
+[3.481s] Invoked command in '/home/nileshthakur/ament_ws/build/rosbridge_library' returned '0': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/rosbridge_test_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nileshthakur/ament_ws/build/rosbridge_library

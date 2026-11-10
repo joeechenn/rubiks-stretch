@@ -1,0 +1,64 @@
+[0.717s] Invoking command in '/home/nileshthakur/ament_ws/src/respeaker_ros2': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/sound_play_msgs:/home/nileshthakur/ament_ws/install/sound_play:/home/nileshthakur/ament_ws/install/audio_play:/home/nileshthakur/ament_ws/install/speech_recognition_msgs:/home/nileshthakur/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/sound_play_msgs:/home/nileshthakur/ament_ws/install/sound_play:/home/nileshthakur/ament_ws/install/audio_play:/home/nileshthakur/ament_ws/install/speech_recognition_msgs:/home/nileshthakur/ament_ws/install/audio_common_msgs LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/sound_play_msgs/lib:/home/nileshthakur/ament_ws/install/audio_play/lib:/home/nileshthakur/ament_ws/install/speech_recognition_msgs/lib:/home/nileshthakur/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/nileshthakur/ament_ws/install/audio_play/bin:${PATH} PYTHONPATH=/home/nileshthakur/ament_ws/build/respeaker_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages:/home/nileshthakur/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages:/home/nileshthakur/ament_ws/install/sound_play/local/lib/python3.10/dist-packages:/home/nileshthakur/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages:/home/nileshthakur/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/respeaker_ros2 build --build-base /home/nileshthakur/ament_ws/build/respeaker_ros2/build install --record /home/nileshthakur/ament_ws/build/respeaker_ros2/install.log --single-version-externally-managed install_data
+[0.979s] running egg_info
+[0.980s] creating ../../build/respeaker_ros2/respeaker_ros2.egg-info
+[0.980s] writing ../../build/respeaker_ros2/respeaker_ros2.egg-info/PKG-INFO
+[0.980s] writing dependency_links to ../../build/respeaker_ros2/respeaker_ros2.egg-info/dependency_links.txt
+[0.980s] writing entry points to ../../build/respeaker_ros2/respeaker_ros2.egg-info/entry_points.txt
+[0.980s] writing requirements to ../../build/respeaker_ros2/respeaker_ros2.egg-info/requires.txt
+[0.980s] writing top-level names to ../../build/respeaker_ros2/respeaker_ros2.egg-info/top_level.txt
+[0.980s] writing manifest file '../../build/respeaker_ros2/respeaker_ros2.egg-info/SOURCES.txt'
+[0.982s] reading manifest file '../../build/respeaker_ros2/respeaker_ros2.egg-info/SOURCES.txt'
+[0.982s] adding license file 'LICENSE.md'
+[0.982s] writing manifest file '../../build/respeaker_ros2/respeaker_ros2.egg-info/SOURCES.txt'
+[0.982s] running build
+[0.982s] running build_py
+[0.983s] creating /home/nileshthakur/ament_ws/build/respeaker_ros2/build
+[0.983s] creating /home/nileshthakur/ament_ws/build/respeaker_ros2/build/lib
+[0.983s] creating /home/nileshthakur/ament_ws/build/respeaker_ros2/build/lib/respeaker_ros2
+[0.983s] copying respeaker_ros2/__init__.py -> /home/nileshthakur/ament_ws/build/respeaker_ros2/build/lib/respeaker_ros2
+[0.983s] copying respeaker_ros2/respeaker_node.py -> /home/nileshthakur/ament_ws/build/respeaker_ros2/build/lib/respeaker_ros2
+[0.983s] copying respeaker_ros2/respeaker_gencfg.py -> /home/nileshthakur/ament_ws/build/respeaker_ros2/build/lib/respeaker_ros2
+[0.983s] copying respeaker_ros2/speech_to_text.py -> /home/nileshthakur/ament_ws/build/respeaker_ros2/build/lib/respeaker_ros2
+[0.983s] creating /home/nileshthakur/ament_ws/build/respeaker_ros2/build/lib/test
+[0.983s] copying test/__init__.py -> /home/nileshthakur/ament_ws/build/respeaker_ros2/build/lib/test
+[0.983s] copying test/test_installed.py -> /home/nileshthakur/ament_ws/build/respeaker_ros2/build/lib/test
+[0.983s] copying test/test_pep257.py -> /home/nileshthakur/ament_ws/build/respeaker_ros2/build/lib/test
+[0.984s] copying test/test_copyright.py -> /home/nileshthakur/ament_ws/build/respeaker_ros2/build/lib/test
+[0.984s] copying test/test_flake8.py -> /home/nileshthakur/ament_ws/build/respeaker_ros2/build/lib/test
+[0.984s] running install
+[0.984s] running install_lib
+[0.985s] creating /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/respeaker_ros2
+[0.985s] copying /home/nileshthakur/ament_ws/build/respeaker_ros2/build/lib/respeaker_ros2/__init__.py -> /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/respeaker_ros2
+[0.985s] copying /home/nileshthakur/ament_ws/build/respeaker_ros2/build/lib/respeaker_ros2/respeaker_node.py -> /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/respeaker_ros2
+[0.985s] copying /home/nileshthakur/ament_ws/build/respeaker_ros2/build/lib/respeaker_ros2/respeaker_gencfg.py -> /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/respeaker_ros2
+[0.985s] copying /home/nileshthakur/ament_ws/build/respeaker_ros2/build/lib/respeaker_ros2/speech_to_text.py -> /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/respeaker_ros2
+[0.985s] creating /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/test
+[0.985s] copying /home/nileshthakur/ament_ws/build/respeaker_ros2/build/lib/test/__init__.py -> /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/test
+[0.985s] copying /home/nileshthakur/ament_ws/build/respeaker_ros2/build/lib/test/test_installed.py -> /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/test
+[0.985s] copying /home/nileshthakur/ament_ws/build/respeaker_ros2/build/lib/test/test_pep257.py -> /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/test
+[0.985s] copying /home/nileshthakur/ament_ws/build/respeaker_ros2/build/lib/test/test_copyright.py -> /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/test
+[0.986s] copying /home/nileshthakur/ament_ws/build/respeaker_ros2/build/lib/test/test_flake8.py -> /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/test
+[0.986s] byte-compiling /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/respeaker_ros2/__init__.py to __init__.cpython-310.pyc
+[0.986s] byte-compiling /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/respeaker_ros2/respeaker_node.py to respeaker_node.cpython-310.pyc
+[0.989s] byte-compiling /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/respeaker_ros2/respeaker_gencfg.py to respeaker_gencfg.cpython-310.pyc
+[0.989s] byte-compiling /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/respeaker_ros2/speech_to_text.py to speech_to_text.cpython-310.pyc
+[0.990s] byte-compiling /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/test/__init__.py to __init__.cpython-310.pyc
+[0.990s] byte-compiling /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/test/test_installed.py to test_installed.cpython-310.pyc
+[0.990s] byte-compiling /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/test/test_pep257.py to test_pep257.cpython-310.pyc
+[0.990s] byte-compiling /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/test/test_copyright.py to test_copyright.cpython-310.pyc
+[0.990s] byte-compiling /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/test/test_flake8.py to test_flake8.cpython-310.pyc
+[0.991s] running install_data
+[0.991s] creating /home/nileshthakur/ament_ws/install/respeaker_ros2/share/ament_index
+[0.991s] creating /home/nileshthakur/ament_ws/install/respeaker_ros2/share/ament_index/resource_index
+[0.991s] creating /home/nileshthakur/ament_ws/install/respeaker_ros2/share/ament_index/resource_index/packages
+[0.991s] copying resource/respeaker_ros2 -> /home/nileshthakur/ament_ws/install/respeaker_ros2/share/ament_index/resource_index/packages
+[0.991s] copying package.xml -> /home/nileshthakur/ament_ws/install/respeaker_ros2/share/respeaker_ros2
+[0.991s] creating /home/nileshthakur/ament_ws/install/respeaker_ros2/share/respeaker_ros2/launch
+[0.991s] copying launch/respeaker.launch.py -> /home/nileshthakur/ament_ws/install/respeaker_ros2/share/respeaker_ros2/launch
+[0.991s] running install_egg_info
+[0.992s] Copying ../../build/respeaker_ros2/respeaker_ros2.egg-info to /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages/respeaker_ros2-0.1.0-py3.10.egg-info
+[0.993s] running install_scripts
+[1.009s] Installing respeaker_node script to /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/respeaker_ros2
+[1.009s] Installing speech_to_text script to /home/nileshthakur/ament_ws/install/respeaker_ros2/lib/respeaker_ros2
+[1.009s] writing list of installed files to '/home/nileshthakur/ament_ws/build/respeaker_ros2/install.log'
+[1.035s] Invoked command in '/home/nileshthakur/ament_ws/src/respeaker_ros2' returned '0': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/sound_play_msgs:/home/nileshthakur/ament_ws/install/sound_play:/home/nileshthakur/ament_ws/install/audio_play:/home/nileshthakur/ament_ws/install/speech_recognition_msgs:/home/nileshthakur/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/sound_play_msgs:/home/nileshthakur/ament_ws/install/sound_play:/home/nileshthakur/ament_ws/install/audio_play:/home/nileshthakur/ament_ws/install/speech_recognition_msgs:/home/nileshthakur/ament_ws/install/audio_common_msgs LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/sound_play_msgs/lib:/home/nileshthakur/ament_ws/install/audio_play/lib:/home/nileshthakur/ament_ws/install/speech_recognition_msgs/lib:/home/nileshthakur/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/nileshthakur/ament_ws/install/audio_play/bin:${PATH} PYTHONPATH=/home/nileshthakur/ament_ws/build/respeaker_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nileshthakur/ament_ws/install/respeaker_ros2/lib/python3.10/site-packages:/home/nileshthakur/ament_ws/install/sound_play_msgs/local/lib/python3.10/dist-packages:/home/nileshthakur/ament_ws/install/sound_play/local/lib/python3.10/dist-packages:/home/nileshthakur/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages:/home/nileshthakur/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/respeaker_ros2 build --build-base /home/nileshthakur/ament_ws/build/respeaker_ros2/build install --record /home/nileshthakur/ament_ws/build/respeaker_ros2/install.log --single-version-externally-managed install_data

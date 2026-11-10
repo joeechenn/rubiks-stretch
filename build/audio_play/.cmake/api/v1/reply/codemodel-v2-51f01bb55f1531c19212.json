@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fb9dac8639f4361b3a23.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "audio_play",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_play::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_play-c78723022a58a12f5e93.json",
+					"name" : "audio_play",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_play_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_play_node-e1f334bc03c6f83b8176.json",
+					"name" : "audio_play_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_play_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_play_uninstall-5e05d00a5eba0990fd0d.json",
+					"name" : "audio_play_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-eda4ca25f69248ea5ecf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nileshthakur/ament_ws/build/audio_play",
+		"source" : "/home/nileshthakur/ament_ws/src/audio_common/audio_play"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

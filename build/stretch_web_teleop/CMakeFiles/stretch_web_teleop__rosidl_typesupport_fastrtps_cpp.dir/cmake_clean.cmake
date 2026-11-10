@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/stretch_web_teleop__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stretch_web_teleop/action/detail/dds_fastrtps/move_to_pregrasp__type_support.cpp.o"
+  "CMakeFiles/stretch_web_teleop__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stretch_web_teleop/action/detail/dds_fastrtps/move_to_pregrasp__type_support.cpp.o.d"
+  "CMakeFiles/stretch_web_teleop__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stretch_web_teleop/msg/detail/dds_fastrtps/text_to_speech__type_support.cpp.o"
+  "CMakeFiles/stretch_web_teleop__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stretch_web_teleop/msg/detail/dds_fastrtps/text_to_speech__type_support.cpp.o.d"
+  "libstretch_web_teleop__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libstretch_web_teleop__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/stretch_web_teleop/action/detail/dds_fastrtps/move_to_pregrasp__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/stretch_web_teleop/action/detail/move_to_pregrasp__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/stretch_web_teleop/msg/detail/dds_fastrtps/text_to_speech__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/stretch_web_teleop/msg/detail/text_to_speech__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/stretch_web_teleop__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

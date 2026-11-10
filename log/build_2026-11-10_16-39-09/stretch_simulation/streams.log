@@ -1,0 +1,41 @@
+[0.890s] Invoking command in '/home/nileshthakur/ament_ws/src/stretch_ros2/stretch_simulation': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/stretch_core:/home/nileshthakur/ament_ws/install/realsense2_camera:/home/nileshthakur/ament_ws/install/realsense2_camera_msgs:/home/nileshthakur/ament_ws/install/hello_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/realsense2_camera:/home/nileshthakur/ament_ws/install/realsense2_camera_msgs LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/realsense2_camera/lib:/home/nileshthakur/ament_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/build/stretch_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nileshthakur/ament_ws/install/stretch_simulation/lib/python3.10/site-packages:/home/nileshthakur/ament_ws/install/stretch_core/lib/python3.10/site-packages:/home/nileshthakur/ament_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/nileshthakur/ament_ws/install/hello_helpers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/stretch_simulation build --build-base /home/nileshthakur/ament_ws/build/stretch_simulation/build install --record /home/nileshthakur/ament_ws/build/stretch_simulation/install.log --single-version-externally-managed install_data
+[1.116s] running egg_info
+[1.116s] creating ../../../build/stretch_simulation/stretch_simulation.egg-info
+[1.116s] writing ../../../build/stretch_simulation/stretch_simulation.egg-info/PKG-INFO
+[1.116s] writing dependency_links to ../../../build/stretch_simulation/stretch_simulation.egg-info/dependency_links.txt
+[1.116s] writing entry points to ../../../build/stretch_simulation/stretch_simulation.egg-info/entry_points.txt
+[1.117s] writing requirements to ../../../build/stretch_simulation/stretch_simulation.egg-info/requires.txt
+[1.117s] writing top-level names to ../../../build/stretch_simulation/stretch_simulation.egg-info/top_level.txt
+[1.117s] writing manifest file '../../../build/stretch_simulation/stretch_simulation.egg-info/SOURCES.txt'
+[1.118s] reading manifest file '../../../build/stretch_simulation/stretch_simulation.egg-info/SOURCES.txt'
+[1.118s] writing manifest file '../../../build/stretch_simulation/stretch_simulation.egg-info/SOURCES.txt'
+[1.118s] running build
+[1.118s] running build_py
+[1.119s] creating /home/nileshthakur/ament_ws/build/stretch_simulation/build
+[1.119s] creating /home/nileshthakur/ament_ws/build/stretch_simulation/build/lib
+[1.119s] creating /home/nileshthakur/ament_ws/build/stretch_simulation/build/lib/stretch_mujoco_driver
+[1.119s] copying stretch_mujoco_driver/__init__.py -> /home/nileshthakur/ament_ws/build/stretch_simulation/build/lib/stretch_mujoco_driver
+[1.119s] copying stretch_mujoco_driver/joint_trajectory_server.py -> /home/nileshthakur/ament_ws/build/stretch_simulation/build/lib/stretch_mujoco_driver
+[1.119s] copying stretch_mujoco_driver/stretch_mujoco_driver.py -> /home/nileshthakur/ament_ws/build/stretch_simulation/build/lib/stretch_mujoco_driver
+[1.119s] running install
+[1.119s] running install_lib
+[1.120s] creating /home/nileshthakur/ament_ws/install/stretch_simulation/lib/python3.10/site-packages/stretch_mujoco_driver
+[1.120s] copying /home/nileshthakur/ament_ws/build/stretch_simulation/build/lib/stretch_mujoco_driver/__init__.py -> /home/nileshthakur/ament_ws/install/stretch_simulation/lib/python3.10/site-packages/stretch_mujoco_driver
+[1.120s] copying /home/nileshthakur/ament_ws/build/stretch_simulation/build/lib/stretch_mujoco_driver/joint_trajectory_server.py -> /home/nileshthakur/ament_ws/install/stretch_simulation/lib/python3.10/site-packages/stretch_mujoco_driver
+[1.120s] copying /home/nileshthakur/ament_ws/build/stretch_simulation/build/lib/stretch_mujoco_driver/stretch_mujoco_driver.py -> /home/nileshthakur/ament_ws/install/stretch_simulation/lib/python3.10/site-packages/stretch_mujoco_driver
+[1.120s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_simulation/lib/python3.10/site-packages/stretch_mujoco_driver/__init__.py to __init__.cpython-310.pyc
+[1.121s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_simulation/lib/python3.10/site-packages/stretch_mujoco_driver/joint_trajectory_server.py to joint_trajectory_server.cpython-310.pyc
+[1.122s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_simulation/lib/python3.10/site-packages/stretch_mujoco_driver/stretch_mujoco_driver.py to stretch_mujoco_driver.cpython-310.pyc
+[1.127s] running install_data
+[1.127s] copying package.xml -> /home/nileshthakur/ament_ws/install/stretch_simulation/share/stretch_simulation
+[1.128s] creating /home/nileshthakur/ament_ws/install/stretch_simulation/share/stretch_simulation/launch
+[1.128s] copying launch/stretch_simulation_web_interface.launch.py -> /home/nileshthakur/ament_ws/install/stretch_simulation/share/stretch_simulation/launch
+[1.128s] copying launch/stretch_mujoco_driver.launch.py -> /home/nileshthakur/ament_ws/install/stretch_simulation/share/stretch_simulation/launch
+[1.128s] creating /home/nileshthakur/ament_ws/install/stretch_simulation/share/stretch_simulation/rviz
+[1.128s] copying rviz/stretch_sim.rviz -> /home/nileshthakur/ament_ws/install/stretch_simulation/share/stretch_simulation/rviz
+[1.128s] running install_egg_info
+[1.129s] Copying ../../../build/stretch_simulation/stretch_simulation.egg-info to /home/nileshthakur/ament_ws/install/stretch_simulation/lib/python3.10/site-packages/stretch_simulation-0.2.0-py3.10.egg-info
+[1.130s] running install_scripts
+[1.148s] Installing stretch_mujoco_driver script to /home/nileshthakur/ament_ws/install/stretch_simulation/lib/stretch_simulation
+[1.149s] writing list of installed files to '/home/nileshthakur/ament_ws/build/stretch_simulation/install.log'
+[1.189s] Invoked command in '/home/nileshthakur/ament_ws/src/stretch_ros2/stretch_simulation' returned '0': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/stretch_core:/home/nileshthakur/ament_ws/install/realsense2_camera:/home/nileshthakur/ament_ws/install/realsense2_camera_msgs:/home/nileshthakur/ament_ws/install/hello_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/realsense2_camera:/home/nileshthakur/ament_ws/install/realsense2_camera_msgs LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/realsense2_camera/lib:/home/nileshthakur/ament_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/build/stretch_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nileshthakur/ament_ws/install/stretch_simulation/lib/python3.10/site-packages:/home/nileshthakur/ament_ws/install/stretch_core/lib/python3.10/site-packages:/home/nileshthakur/ament_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/nileshthakur/ament_ws/install/hello_helpers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/stretch_simulation build --build-base /home/nileshthakur/ament_ws/build/stretch_simulation/build install --record /home/nileshthakur/ament_ws/build/stretch_simulation/install.log --single-version-externally-managed install_data

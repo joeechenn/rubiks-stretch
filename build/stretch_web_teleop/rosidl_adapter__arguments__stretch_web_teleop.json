@@ -1,0 +1,7 @@
+{
+  "package_name": "stretch_web_teleop",
+  "non_idl_tuples": [
+    "/home/nileshthakur/ament_ws/src/stretch_web_teleop:action/MoveToPregrasp.action",
+    "/home/nileshthakur/ament_ws/src/stretch_web_teleop:msg/TextToSpeech.msg"
+  ]
+}

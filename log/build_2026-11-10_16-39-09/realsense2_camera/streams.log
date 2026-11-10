@@ -1,0 +1,291 @@
+[0.054s] Invoking command in '/home/nileshthakur/ament_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nileshthakur/ament_ws/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/nileshthakur/ament_ws/install/realsense2_camera
+[1.484s] -- The C compiler identification is GNU 11.4.0
+[1.484s] -- The CXX compiler identification is GNU 11.4.0
+[1.484s] -- Detecting C compiler ABI info
+[1.484s] -- Detecting C compiler ABI info - done
+[1.484s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.484s] -- Detecting C compile features
+[1.484s] -- Detecting C compile features - done
+[1.484s] -- Detecting CXX compiler ABI info
+[1.560s] -- Detecting CXX compiler ABI info - done
+[1.591s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.592s] -- Detecting CXX compile features
+[1.592s] -- Detecting CXX compile features - done
+[1.595s] -- Create Release Build.
+[1.606s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.145s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.765s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[2.931s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.966s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.033s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.130s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.272s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.407s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[3.832s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[4.153s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.157s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.655s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.864s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.016s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.058s] -- Looking for pthread.h
+[5.446s] -- Looking for pthread.h - found
+[5.447s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.820s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.827s] -- Found Threads: TRUE  
+[6.124s] -- Found rclcpp_components: 16.0.17 (/opt/ros/humble/share/rclcpp_components/cmake)
+[6.195s] -- Found realsense2_camera_msgs: 4.55.1 (/home/nileshthakur/ament_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)
+[6.281s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.356s] -- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+[6.696s] -- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[6.782s] -- Found OpenCV: /usr (found version "4.5.4") found components: core 
+[6.789s] -- Build for ROS2 Humble
+[6.811s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[6.829s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.853s] -- Found ament_cmake_pytest: 1.3.12 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[10.279s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[10.280s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[10.280s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[10.280s]   using pip.
+[10.280s] Call Stack (most recent call first):
+[10.280s]   CMakeLists.txt:334 (ament_add_pytest_test)
+[10.280s] 
+[10.280s] [0m
+[12.952s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[12.952s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[12.952s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[12.952s]   using pip.
+[12.952s] Call Stack (most recent call first):
+[12.952s]   CMakeLists.txt:334 (ament_add_pytest_test)
+[12.952s] 
+[12.952s] [0m
+[14.822s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[14.822s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[14.822s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[14.822s]   using pip.
+[14.822s] Call Stack (most recent call first):
+[14.822s]   CMakeLists.txt:334 (ament_add_pytest_test)
+[14.822s] 
+[14.822s] [0m
+[16.526s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[16.527s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[16.527s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[16.527s]   using pip.
+[16.527s] Call Stack (most recent call first):
+[16.527s]   CMakeLists.txt:334 (ament_add_pytest_test)
+[16.527s] 
+[16.527s] [0m
+[17.617s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[17.617s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[17.617s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[17.617s]   using pip.
+[17.617s] Call Stack (most recent call first):
+[17.617s]   CMakeLists.txt:334 (ament_add_pytest_test)
+[17.617s] 
+[17.617s] [0m
+[18.670s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[18.670s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[18.670s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[18.670s]   using pip.
+[18.670s] Call Stack (most recent call first):
+[18.670s]   CMakeLists.txt:334 (ament_add_pytest_test)
+[18.670s] 
+[18.670s] [0m
+[19.620s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[19.621s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[19.621s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[19.621s]   using pip.
+[19.621s] Call Stack (most recent call first):
+[19.621s]   CMakeLists.txt:334 (ament_add_pytest_test)
+[19.621s] 
+[19.621s] [0m
+[20.531s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[20.532s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[20.532s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[20.532s]   using pip.
+[20.532s] Call Stack (most recent call first):
+[20.532s]   CMakeLists.txt:334 (ament_add_pytest_test)
+[20.532s] 
+[20.532s] [0m
+[21.385s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[21.385s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[21.385s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[21.385s]   using pip.
+[21.385s] Call Stack (most recent call first):
+[21.385s]   CMakeLists.txt:334 (ament_add_pytest_test)
+[21.385s] 
+[21.385s] [0m
+[21.903s] -- rs_device_info:
+[21.903s] --  10/11 16:39:48,612 ERROR [131756078944832] (context.cpp:41) No valid configuration file found at : /home/nileshthakur/.realsense-config.json loading defaults
+[21.903s] Device Name                   Serial Number       Firmware Version
+[21.903s] Intel RealSense D435IF        250122074852        5.16.0.1
+[21.903s] Intel RealSense D405          130322271052        5.16.0.1
+[21.903s] 
+[21.903s] -- D455 device found
+[22.808s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[22.809s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[22.809s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[22.809s]   using pip.
+[22.809s] Call Stack (most recent call first):
+[22.809s]   CMakeLists.txt:363 (ament_add_pytest_test)
+[22.809s] 
+[22.809s] [0m
+[23.681s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[23.681s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[23.681s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[23.681s]   using pip.
+[23.681s] Call Stack (most recent call first):
+[23.681s]   CMakeLists.txt:363 (ament_add_pytest_test)
+[23.681s] 
+[23.681s] [0m
+[24.481s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[24.481s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[24.481s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[24.481s]   using pip.
+[24.481s] Call Stack (most recent call first):
+[24.481s]   CMakeLists.txt:363 (ament_add_pytest_test)
+[24.481s] 
+[24.481s] [0m
+[25.199s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[25.199s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[25.199s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[25.199s]   using pip.
+[25.199s] Call Stack (most recent call first):
+[25.199s]   CMakeLists.txt:363 (ament_add_pytest_test)
+[25.200s] 
+[25.200s] [0m
+[25.886s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[25.886s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[25.886s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[25.886s]   using pip.
+[25.886s] Call Stack (most recent call first):
+[25.886s]   CMakeLists.txt:363 (ament_add_pytest_test)
+[25.886s] 
+[25.886s] [0m
+[26.598s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[26.598s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[26.599s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[26.599s]   using pip.
+[26.599s] Call Stack (most recent call first):
+[26.599s]   CMakeLists.txt:363 (ament_add_pytest_test)
+[26.599s] 
+[26.599s] [0m
+[27.282s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[27.282s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[27.282s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[27.282s]   using pip.
+[27.282s] Call Stack (most recent call first):
+[27.282s]   CMakeLists.txt:363 (ament_add_pytest_test)
+[27.282s] 
+[27.282s] [0m
+[28.000s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[28.000s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[28.000s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[28.000s]   using pip.
+[28.000s] Call Stack (most recent call first):
+[28.000s]   CMakeLists.txt:363 (ament_add_pytest_test)
+[28.000s] 
+[28.000s] [0m
+[28.060s] -- Configuring done
+[28.078s] -- Generating done
+[28.084s] -- Build files have been written to: /home/nileshthakur/ament_ws/build/realsense2_camera
+[28.094s] Invoked command in '/home/nileshthakur/ament_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nileshthakur/ament_ws/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/nileshthakur/ament_ws/install/realsense2_camera
+[28.097s] Invoking command in '/home/nileshthakur/ament_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nileshthakur/ament_ws/build/realsense2_camera -- -j16 -l16
+[28.150s] [  9%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o[0m
+[28.150s] [  9%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/parameters.cpp.o[0m
+[28.151s] [ 13%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.o[0m
+[28.151s] [ 18%] [32mBuilding CXX object CMakeFiles/realsense2_camera_node.dir/rclcpp_components/node_main_realsense2_camera_node.cpp.o[0m
+[28.152s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[28.152s] [ 31%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[28.152s] [ 31%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o[0m
+[28.789s] [ 36%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[28.979s] [ 36%] Built target gtest_main
+[31.693s] [ 40%] [32m[1mLinking CXX executable realsense2_camera_node[0m
+[31.814s] [ 40%] Built target realsense2_camera_node
+[36.743s] [ 50%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o[0m
+[36.743s] [ 50%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/tfs.cpp.o[0m
+[36.743s] [ 54%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_param_backend.cpp.o[0m
+[36.743s] [ 63%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/sensor_params.cpp.o[0m
+[36.744s] [ 63%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/image_publisher.cpp.o[0m
+[36.744s] [ 72%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o[0m
+[36.744s] [ 72%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/profile_manager.cpp.o[0m
+[37.533s] [ 77%] [32m[1mLinking CXX static library libgtest.a[0m
+[37.651s] [ 77%] Built target gtest
+[37.680s] [ 81%] [32mBuilding CXX object CMakeFiles/gtest_template.dir/test/gtest_template.cpp.o[0m
+[38.657s] [ 86%] [32m[1mLinking CXX executable gtest_template[0m
+[38.807s] [ 86%] Built target gtest_template
+[40.037s] [ 90%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_utils.cpp.o[0m
+[40.037s] [ 95%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_sensor.cpp.o[0m
+[49.144s] [100%] [32m[1mLinking CXX shared library librealsense2_camera.so[0m
+[49.519s] [100%] Built target realsense2_camera
+[49.535s] Invoked command in '/home/nileshthakur/ament_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nileshthakur/ament_ws/build/realsense2_camera -- -j16 -l16
+[49.538s] Invoking command in '/home/nileshthakur/ament_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nileshthakur/ament_ws/build/realsense2_camera
+[49.548s] -- Install configuration: "Release"
+[49.548s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node
+[49.548s] -- Set runtime path of "/home/nileshthakur/ament_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node" to ""
+[49.549s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/lib/librealsense2_camera.so
+[49.551s] -- Set runtime path of "/home/nileshthakur/ament_ws/install/realsense2_camera/lib/librealsense2_camera.so" to ""
+[49.552s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/include
+[49.552s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/include/ros_sensor.h
+[49.552s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/include/profile_manager.h
+[49.552s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/include/sensor_params.h
+[49.552s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/include/ros_utils.h
+[49.552s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/include/base_realsense_node.h
+[49.553s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/include/constants.h
+[49.553s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/include/gl_window.h
+[49.553s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/include/ros_param_backend.h
+[49.553s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/include/realsense_node_factory.h
+[49.553s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/include/dynamic_params.h
+[49.553s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/include/image_publisher.h
+[49.553s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/include/named_filter.h
+[49.554s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/launch
+[49.554s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/launch/default.rviz
+[49.554s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_intra_process_demo_launch.py
+[49.554s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py
+[49.554s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py
+[49.554s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples
+[49.555s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_from_rosbag
+[49.555s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_from_rosbag/README.md
+[49.555s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_from_rosbag/rs_launch_from_rosbag.py
+[49.555s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/align_depth
+[49.555s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/align_depth/README.md
+[49.555s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/align_depth/rs_align_depth_launch.py
+[49.555s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud
+[49.556s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/README.md
+[49.556s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rviz
+[49.556s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rviz/pointcloud.rviz
+[49.556s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rviz/urdf_pointcloud.rviz
+[49.556s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_d455_pointcloud_launch.py
+[49.556s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_d405_pointcloud_launch.py
+[49.557s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_pointcloud_launch.py
+[49.557s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file
+[49.557s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/README.md
+[49.557s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/rs_launch_get_params_from_yaml.py
+[49.557s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/config
+[49.557s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/config/config.yaml
+[49.557s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera
+[49.558s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/rs_dual_camera_launch.py
+[49.558s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/README.md
+[49.558s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/rviz
+[49.558s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/rviz/dual_camera_pointcloud.rviz
+[49.558s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh
+[49.558s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv
+[49.558s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera
+[49.559s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera
+[49.559s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh
+[49.559s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv
+[49.559s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/environment/path.sh
+[49.559s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/environment/path.dsv
+[49.559s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/local_setup.bash
+[49.559s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/local_setup.sh
+[49.560s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/local_setup.zsh
+[49.560s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/local_setup.dsv
+[49.560s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/package.dsv
+[49.560s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera
+[49.560s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera
+[49.560s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[49.560s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[49.560s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[49.561s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake
+[49.561s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake
+[49.561s] -- Installing: /home/nileshthakur/ament_ws/install/realsense2_camera/share/realsense2_camera/package.xml
+[49.563s] Invoked command in '/home/nileshthakur/ament_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nileshthakur/ament_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nileshthakur/ament_ws/build/realsense2_camera

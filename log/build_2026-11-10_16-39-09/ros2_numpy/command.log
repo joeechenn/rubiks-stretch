@@ -1,0 +1,6 @@
+Invoking command in '/home/nileshthakur/ament_ws/build/ros2_numpy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nileshthakur/ament_ws/src/ros2_numpy -DCMAKE_INSTALL_PREFIX=/home/nileshthakur/ament_ws/install/ros2_numpy
+Invoked command in '/home/nileshthakur/ament_ws/build/ros2_numpy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nileshthakur/ament_ws/src/ros2_numpy -DCMAKE_INSTALL_PREFIX=/home/nileshthakur/ament_ws/install/ros2_numpy
+Invoking command in '/home/nileshthakur/ament_ws/build/ros2_numpy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nileshthakur/ament_ws/build/ros2_numpy -- -j16 -l16
+Invoked command in '/home/nileshthakur/ament_ws/build/ros2_numpy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nileshthakur/ament_ws/build/ros2_numpy -- -j16 -l16
+Invoking command in '/home/nileshthakur/ament_ws/build/ros2_numpy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nileshthakur/ament_ws/build/ros2_numpy
+Invoked command in '/home/nileshthakur/ament_ws/build/ros2_numpy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nileshthakur/ament_ws/build/ros2_numpy

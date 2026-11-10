@@ -1,0 +1,85 @@
+[6.122s] Invoking command in '/home/nileshthakur/ament_ws/src/stretch_ros2/stretch_funmap': PYTHONPATH=/home/nileshthakur/ament_ws/build/stretch_funmap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/stretch_funmap build --build-base /home/nileshthakur/ament_ws/build/stretch_funmap/build install --record /home/nileshthakur/ament_ws/build/stretch_funmap/install.log --single-version-externally-managed install_data
+[11.370s] running egg_info
+[11.370s] creating ../../../build/stretch_funmap/stretch_funmap.egg-info
+[11.370s] writing ../../../build/stretch_funmap/stretch_funmap.egg-info/PKG-INFO
+[11.370s] writing dependency_links to ../../../build/stretch_funmap/stretch_funmap.egg-info/dependency_links.txt
+[11.370s] writing entry points to ../../../build/stretch_funmap/stretch_funmap.egg-info/entry_points.txt
+[11.370s] writing requirements to ../../../build/stretch_funmap/stretch_funmap.egg-info/requires.txt
+[11.370s] writing top-level names to ../../../build/stretch_funmap/stretch_funmap.egg-info/top_level.txt
+[11.370s] writing manifest file '../../../build/stretch_funmap/stretch_funmap.egg-info/SOURCES.txt'
+[11.371s] reading manifest file '../../../build/stretch_funmap/stretch_funmap.egg-info/SOURCES.txt'
+[11.371s] adding license file 'LICENSE.md'
+[11.371s] writing manifest file '../../../build/stretch_funmap/stretch_funmap.egg-info/SOURCES.txt'
+[11.371s] running build
+[11.371s] running build_py
+[11.371s] creating /home/nileshthakur/ament_ws/build/stretch_funmap/build
+[11.371s] creating /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib
+[11.371s] creating /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap
+[11.371s] copying stretch_funmap/numba_create_plane_image.py -> /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap
+[11.371s] copying stretch_funmap/__init__.py -> /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap
+[11.371s] copying stretch_funmap/mapping.py -> /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap
+[11.372s] copying stretch_funmap/merge_maps.py -> /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap
+[11.372s] copying stretch_funmap/numba_sample_ridge.py -> /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap
+[11.372s] copying stretch_funmap/max_height_image.py -> /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap
+[11.372s] copying stretch_funmap/numba_compare_images.py -> /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap
+[11.372s] copying stretch_funmap/segment_max_height_image.py -> /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap
+[11.372s] copying stretch_funmap/navigate.py -> /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap
+[11.372s] copying stretch_funmap/numba_check_line_path.py -> /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap
+[11.372s] copying stretch_funmap/funmap.py -> /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap
+[11.372s] copying stretch_funmap/numba_height_image.py -> /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap
+[11.372s] copying stretch_funmap/manipulation_planning.py -> /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap
+[11.372s] copying stretch_funmap/numba_manipulation_planning.py -> /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap
+[11.372s] copying stretch_funmap/navigation_planning.py -> /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap
+[11.372s] copying stretch_funmap/ros_max_height_image.py -> /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap
+[11.373s] running install
+[11.373s] running install_lib
+[11.373s] creating /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[11.377s] copying /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap/numba_create_plane_image.py -> /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[11.377s] copying /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap/__init__.py -> /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[11.377s] copying /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap/mapping.py -> /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[11.378s] copying /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap/merge_maps.py -> /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[11.378s] copying /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap/numba_sample_ridge.py -> /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[11.378s] copying /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap/max_height_image.py -> /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[11.378s] copying /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap/numba_compare_images.py -> /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[11.378s] copying /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap/segment_max_height_image.py -> /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[11.378s] copying /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap/navigate.py -> /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[11.378s] copying /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap/numba_check_line_path.py -> /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[11.378s] copying /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap/funmap.py -> /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[11.378s] copying /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap/numba_height_image.py -> /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[11.378s] copying /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap/manipulation_planning.py -> /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[11.378s] copying /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap/numba_manipulation_planning.py -> /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[11.378s] copying /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap/navigation_planning.py -> /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[11.379s] copying /home/nileshthakur/ament_ws/build/stretch_funmap/build/lib/stretch_funmap/ros_max_height_image.py -> /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap
+[11.379s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/numba_create_plane_image.py to numba_create_plane_image.cpython-310.pyc
+[11.379s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/__init__.py to __init__.cpython-310.pyc
+[11.379s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/mapping.py to mapping.cpython-310.pyc
+[11.379s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/merge_maps.py to merge_maps.cpython-310.pyc
+[11.379s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/numba_sample_ridge.py to numba_sample_ridge.cpython-310.pyc
+[11.379s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/max_height_image.py to max_height_image.cpython-310.pyc
+[11.379s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/numba_compare_images.py to numba_compare_images.cpython-310.pyc
+[11.379s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/segment_max_height_image.py to segment_max_height_image.cpython-310.pyc
+[11.379s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/navigate.py to navigate.cpython-310.pyc
+[11.379s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/numba_check_line_path.py to numba_check_line_path.cpython-310.pyc
+[11.379s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/funmap.py to funmap.cpython-310.pyc
+[11.380s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/numba_height_image.py to numba_height_image.cpython-310.pyc
+[11.380s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/manipulation_planning.py to manipulation_planning.cpython-310.pyc
+[11.380s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/numba_manipulation_planning.py to numba_manipulation_planning.cpython-310.pyc
+[11.380s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/navigation_planning.py to navigation_planning.cpython-310.pyc
+[11.393s] byte-compiling /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap/ros_max_height_image.py to ros_max_height_image.cpython-310.pyc
+[11.393s] running install_data
+[11.394s] creating /home/nileshthakur/ament_ws/install/stretch_funmap/share/ament_index
+[11.394s] creating /home/nileshthakur/ament_ws/install/stretch_funmap/share/ament_index/resource_index
+[11.394s] creating /home/nileshthakur/ament_ws/install/stretch_funmap/share/ament_index/resource_index/packages
+[11.394s] copying resource/stretch_funmap -> /home/nileshthakur/ament_ws/install/stretch_funmap/share/ament_index/resource_index/packages
+[11.394s] copying package.xml -> /home/nileshthakur/ament_ws/install/stretch_funmap/share/stretch_funmap
+[11.394s] creating /home/nileshthakur/ament_ws/install/stretch_funmap/share/stretch_funmap/launch
+[11.394s] copying launch/funmap.launch.py -> /home/nileshthakur/ament_ws/install/stretch_funmap/share/stretch_funmap/launch
+[11.394s] copying launch/mapping.launch.py -> /home/nileshthakur/ament_ws/install/stretch_funmap/share/stretch_funmap/launch
+[11.394s] creating /home/nileshthakur/ament_ws/install/stretch_funmap/share/stretch_funmap/rviz
+[11.394s] copying rviz/stretch_mapping.rviz -> /home/nileshthakur/ament_ws/install/stretch_funmap/share/stretch_funmap/rviz
+[11.394s] running install_egg_info
+[11.394s] Copying ../../../build/stretch_funmap/stretch_funmap.egg-info to /home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap-0.0.0-py3.10.egg-info
+[11.395s] running install_scripts
+[11.395s] Installing funmap script to /home/nileshthakur/ament_ws/install/stretch_funmap/lib/stretch_funmap
+[11.395s] writing list of installed files to '/home/nileshthakur/ament_ws/build/stretch_funmap/install.log'
+[11.504s] Invoked command in '/home/nileshthakur/ament_ws/src/stretch_ros2/stretch_funmap' returned '0': PYTHONPATH=/home/nileshthakur/ament_ws/build/stretch_funmap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nileshthakur/ament_ws/install/stretch_funmap/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/stretch_funmap build --build-base /home/nileshthakur/ament_ws/build/stretch_funmap/build install --record /home/nileshthakur/ament_ws/build/stretch_funmap/install.log --single-version-externally-managed install_data

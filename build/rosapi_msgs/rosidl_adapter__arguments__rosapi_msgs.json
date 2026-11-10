@@ -1,0 +1,30 @@
+{
+  "package_name": "rosapi_msgs",
+  "non_idl_tuples": [
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:msg/TypeDef.msg",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/DeleteParam.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/GetActionServers.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/GetParam.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/GetParamNames.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/GetROSVersion.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/GetTime.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/HasParam.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/MessageDetails.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/Nodes.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/NodeDetails.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/Publishers.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceNode.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceProviders.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceRequestDetails.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceResponseDetails.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/Services.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/ServicesForType.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceType.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/SetParam.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/Subscribers.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/Topics.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/TopicsAndRawTypes.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/TopicsForType.srv",
+    "/home/nileshthakur/ament_ws/src/rosbridge_suite/rosapi_msgs:srv/TopicType.srv"
+  ]
+}
