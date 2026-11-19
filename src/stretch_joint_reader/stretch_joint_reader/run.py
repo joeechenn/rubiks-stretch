@@ -33,10 +33,6 @@ class MyNode(hm.HelloNode):
         self.move_to_pose({'joint_wrist_yaw': 0, 'joint_wrist_pitch': -1.5, 'joint_wrist_roll': 1.5,}, blocking=True)
         self.move_to_pose({'joint_wrist_yaw': 0, 'joint_wrist_pitch': 0, 'joint_wrist_roll': 1.5,}, blocking=True)
 
-
-        
-
-
 def main():
     node = MyNode()
     node.main()

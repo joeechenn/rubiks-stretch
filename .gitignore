@@ -8,3 +8,7 @@ src/respeaker_ros2/
 src/ros2_numpy/
 src/sllidar_ros2/
 src/tf2_web_republisher_py/
+
+# collected camera frames
+cube_dataset/
+__pycache__/
