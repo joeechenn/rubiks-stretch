@@ -133,6 +133,75 @@ def find_color_stickers(bgr, min_area, max_area, v_min=45, s_min=60, v_white=110
     return stickers
 
 
+def find_uniform_face(bgr, min_area, max_area, s_min=80, v_min=45, seam_ratio=0.88):
+    """Find a face whose 9 stickers share one color (e.g. a solved cube).
+
+    The per-sticker detectors fail there: same-color stickers merge into one blob,
+    and the black seams between them are too thin for Canny. So look for one
+    saturated, square blob about 9 stickers in size and accept it only if it shows
+    darker seams at the 1/3 and 2/3 lines both ways (a plain colored square doesn't).
+    Saturation-only, so an all-WHITE face is not found (it can't be told from a white
+    table). Returns 9 synthetic (contour, center, side_length) stickers, or [].
+    """
+    hsv = cv2.cvtColor(bgr, cv2.COLOR_BGR2HSV)
+    hue, s, v = hsv[:, :, 0].astype(np.int16), hsv[:, :, 1], hsv[:, :, 2]
+    gray = cv2.cvtColor(bgr, cv2.COLOR_BGR2GRAY)
+    colored = (s > s_min) & (v > v_min)
+    # One mask per hue band (OpenCV hue is 0..179, wrapping): a visible SIDE face of
+    # another color (seen when the camera is off the cube's axis, e.g. while gripping)
+    # must not merge with the top face into one lopsided blob.
+    contours = []
+    for h0 in range(0, 180, 10):
+        dh = np.abs((hue - h0 + 90) % 180 - 90)
+        mask = (colored & (dh <= 12)).astype(np.uint8) * 255
+        if cv2.countNonZero(mask) < 6 * min_area:
+            continue
+        mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, np.ones((5, 5), np.uint8))
+        contours += cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[0]
+
+    n = 90                                   # face resampled to n x n pixels
+    third = n // 3
+    best = None
+    for c in contours:
+        area = cv2.contourArea(c)
+        if not (6 * min_area < area < 9 * max_area):
+            continue
+        rect = cv2.minAreaRect(c)
+        w, h = rect[1]
+        if w == 0 or h == 0 or not (0.8 < w / h < 1.25) or area / (w * h) < 0.8:
+            continue
+        # straighten the face, then compare brightness on the seam lines with the cells
+        box = cv2.boxPoints(rect).astype(np.float32)
+        M = cv2.getPerspectiveTransform(box, np.float32([[0, n], [0, 0], [n, 0], [n, n]]))
+        face = cv2.warpPerspective(gray, M, (n, n)).astype(np.float32)
+        # Brightness profiles across the columns / down the rows. The 30th percentile
+        # (not the mean) keeps a thin, slightly slanted seam dark instead of averaging
+        # it away; on live frames this took the weakest seam from 0.93 to 0.74 of
+        # the sticker brightness (a seamless square stays at 1.0).
+        cols = np.percentile(face[5:n - 5], 30, axis=0)
+        rows = np.percentile(face[:, 5:n - 5], 30, axis=1)
+        cell = np.median(face[5:n - 5, 5:n - 5])
+        seams = [prof[i * third - 8:i * third + 9].min() for prof in (cols, rows) for i in (1, 2)]
+        if np.mean(seams) > seam_ratio * cell:   # mean: one faint seam must not veto the face
+            continue
+        if best is None or area > best[0]:
+            best = (area, rect)
+    if best is None:
+        return []
+
+    (cx, cy), (w, h), ang = best[1]
+    side = (w + h) / 6                         # one sticker
+    u = np.array([np.cos(np.radians(ang)), np.sin(np.radians(ang))])
+    vv = np.array([-u[1], u[0]])
+    stickers = []
+    for r in (-1, 0, 1):
+        for k in (-1, 0, 1):
+            center = np.array([cx, cy]) + side * (k * u + r * vv)
+            corners = cv2.boxPoints((tuple(center), (side, side), ang)).astype(np.int32)
+            stickers.append((corners.reshape(-1, 1, 2), center, side))
+    return stickers
+
+
 def dedupe(stickers):
     """Drop candidates that sit on top of each other (nested squares)."""
     kept = []
@@ -259,7 +328,13 @@ def find_face(frame, params):
     stickers = dedupe(find_stickers(norm, *params)
                       + find_color_stickers(norm, params[2], params[3]))
     face = group_face(stickers)
-    return norm, stickers, face, (fit_grid(face) if len(face) >= 3 else None)
+    grid = fit_grid(face) if len(face) >= 3 else None
+    if grid is None or grid[2] < 5:
+        # too few separate stickers: maybe a single-color face (solved cube)
+        uniform = find_uniform_face(norm, params[2], params[3])
+        if uniform:
+            stickers, face, grid = stickers + uniform, uniform, fit_grid(uniform)
+    return norm, stickers, face, grid
 
 
 def detect(frame, params):

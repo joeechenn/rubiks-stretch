@@ -26,6 +26,11 @@ ros2 run stretch_joint_reader run
 python3 src/stretch_joint_reader/stretch_joint_reader/cube_contour.py [TOPIC] [--no-gui]
 #   default TOPIC: /gripper_camera/color/image_rect_raw; also publishes /cube_detection/image
 
+# Visual servoing: keep the gripper camera centered over the cube (needs the driver).
+# It lives at the package root but does `import cube_contour`, so put the module dir on the path.
+# --dry-run logs moves without sending them. It starts the D405 itself unless --no-launch-camera is given.
+PYTHONPATH=src/stretch_joint_reader/stretch_joint_reader python3 src/stretch_joint_reader/cube_track.py [--dry-run] [--no-gui]
+
 # cube_vision tests (run from src/cube_vision so the package is importable).
 # PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 is required: a user-installed anyio pytest plugin
 # breaks the system pytest with "No module named '_pytest.scope'".
@@ -45,7 +50,7 @@ python3 scripts/draw_grid.py IMG [IMG ...] --out debug_out [--max-dim 1000] [--s
 - Driver: `ros2 launch stretch_core stretch_driver.launch.py`. Home the robot first, with `stretch_robot_home.py` (driver off) or `ros2 service call /home_the_robot std_srvs/srv/Trigger` (driver on). An unhomed robot or a wrong joint name is silently ignored.
 - Gripper camera (D405): `ros2 launch stretch_core d405_basic.launch.py`, which publishes `/gripper_camera/color/image_rect_raw`. Its color/exposure parameters are under `depth_module.*`. If the feed freezes or drops frames, launch with `pointcloud.enable:=false align_depth.enable:=false` and run one camera at a time.
 - GUI tools (OpenCV windows) fail in VS Code's snap terminal with a libpthread error: `unset GTK_PATH` or use a regular terminal.
-- `run.py`: `wrist_extension` has no `joint_` prefix, unlike the other joints. `main()` must end with `rclpy.shutdown()` and `node.new_thread.join()`, or the process core-dumps.
+- `HelloNode` scripts (`run.py`, `cube_track.py`): `wrist_extension` has no `joint_` prefix, unlike the other joints. `main()` must end with `rclpy.shutdown()` and `node.new_thread.join()`, or the process core-dumps.
 - `cv_bridge.cv2_to_imgmsg` raises `KeyError: 16` because pip OpenCV in `~/.local` conflicts with the system one. `cube_contour.py` therefore builds the `Image` message by hand; keep it that way.
 
 ## Cube detection status (as of 2026-11-19)
@@ -68,5 +73,13 @@ The camera must work in dim light, so don't rely on adding light. Tuned on 50 di
 `centers[row, col] = (x, y)` follows image orientation, with NaN for missing stickers. A grid needs at least `min_stickers` (6) matches. Tests build synthetic faces with `make_face(angle, clutter, hide)` in `test_sticker_detector.py` and check center positions to within 3 px.
 
 **Two separate detectors exist.** `stretch_joint_reader/cube_contour.py` is a standalone ROS node with its own `find_stickers`, which works differently: it runs CLAHE, then Canny edges, then solid-color square regions on **BGR** frames, and falls back to a "color blob" mask. It draws a rotated box around the face and does not use `cube_vision`. `cube_vision` expects **RGB**, so convert ROS/cv2 BGR frames before calling it. The head camera (`/camera/color/image_raw`) is mounted sideways, so `cube_contour.py` rotates any non-gripper topic 90° clockwise.
+
+**`cube_contour` is the shared detector module.** `cube_scanner.py` and `cube_track.py` both use `cube_contour.find_face(frame, PARAMS)` and its color constants, through a plain `import cube_contour` rather than a package import. These scripts therefore only work when run from that directory or with it on `PYTHONPATH`. `cube_contour` reads `sys.argv` **at import time** to set `TOPIC`, `ROTATE` and `GUI`, so `cube_track.py` hides its own flags around the import. Keep that pattern in any new script that imports it. `find_face(...)[3]` is `(centers, pitch, n_matched)` or `None`.
+
+**Solved (single-color) faces:** the per-sticker detectors merge same-color stickers into one blob. When they find fewer than 5 stickers, `find_face` falls back to `find_uniform_face`. It looks for a saturated square blob about 9 stickers in size, accepts it only if darker seams show at the 1/3 and 2/3 lines, and splits it into 9 synthetic stickers. It cannot find an all-white face on a white table.
+
+**Wrist yaw zero is off on this robot.** `joint_wrist_yaw = 0` is not in line with the arm. `cube_track.WRIST_YAW_STRAIGHT` (0.769 rad, set by eye with keyboard teleop) is the straight value, overridable with `--yaw`. The wrist roll servo also uses the default `zero_t` (2048), not a calibrated value.
+
+**`cube_track.py` control loop:** it moves to a look-down pose (lift, wrist pitch about -1.5, gripper open). Then for each new frame, it turns the face-center pixel error into meters using a 19 mm sticker pitch (no depth or intrinsics), and corrects only `wrist_extension`, with gain, deadband, max step and clipping to `EXT_LIMITS`. The base never moves, so error across the arm's axis is only displayed. When the cube is lost, the robot holds still. `--ext-axis y --ext-sign -1` was verified on the robot on 2026-11-23. Any camera it launched is stopped by killing its process group on exit.
 
 **`run.py`** subclasses `hello_helpers.hello_misc.HelloNode` (from `stretch_ros2`). It switches the robot to position mode and then runs a hard-coded sequence of blocking `move_to_pose` calls (lift, wrist extension, wrist yaw/pitch/roll, gripper). Joint names follow the Stretch driver's conventions (`joint_lift`, `wrist_extension`, `joint_wrist_*`, `joint_gripper_finger_left`).
